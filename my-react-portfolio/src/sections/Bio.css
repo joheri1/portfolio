@@ -1,0 +1,43 @@
+.bio-card {
+  background-color: #000;
+  max-width: 782px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 64px 0px 128px 0px;
+
+}
+
+.bio-card .bio-heading,
+.bio-text {
+  color: #FFF;
+}
+
+.bio-text {
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  display: block;
+  margin-top: 10px;
+  overflow-wrap: break-word;
+}
+
+
+/* Media query for tablet */
+@media (max-width: 768px) {
+  .bio-card {
+    padding: 4rem 1.5rem 8rem 1.5rem;
+  }
+}
+
+
+/* Media query for mobile */
+@media (max-width: 480px) {
+  .bio-card {
+    padding: 4rem 1rem 4rem;
+  }
+
+  .bio-text {
+    font-size: 1rem;
+  }
+}

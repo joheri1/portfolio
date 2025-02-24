@@ -1,15 +1,15 @@
+import { Heading } from "../ui/Heading"
+import "./Bio.css"
 
 export const Bio = () => {
   return (
-    <section id="bio">
-      <div className="bio-container">
-        <div className="bio-content">
-          <h2>About Me</h2>
-          <p>
-            I am a software engineer with a passion for creating and building. I am a recent graduate of the Flatiron School Software Engineering program, where I learned how to build full stack web applications. I have a background in education and a passion for learning and teaching. I am excited to continue to grow and learn as a developer and to contribute to a team that values collaboration and innovation.
-          </p>
-        </div>
+    <div className="bio-card">
+      <Heading heading="Bio" className="bio-heading" level={2} />
+      <div className="bio-text">
+        <p>
+          Johanna is a senior system administrator transitioning into a developer role. With a keen curiosity and a passion for learning, she thrives on tackling new challenges and exploring innovative solutions. Her creativity and attention to detail allow her to build intuitive, user-friendly applications, always with a focus on functionality and great design. Engaged and adaptable, she brings both structure and fresh ideas to every project she takes on.
+        </p>
       </div>
-    </section>
-  )
-}
+    </div>
+  );
+};
