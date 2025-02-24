@@ -2,14 +2,15 @@
   "projects": [
     {
       "name": "Chatbot",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "/CoffeeBot.png",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript"
       ],
-      "netlify": "link",
-      "github": "link"
+      "description": "A functional chatbot interface using JavaScript, HTML, and CSS. The chatbot interacts with user, ask questions, display messages, and respond with precision.",
+      "netlify": "https://johannaschatbot.netlify.app/",
+      "github": "https://github.com/joheri1/project-chatbot"
     },
     {
       "name": "Weather app",
@@ -20,8 +21,9 @@
         "JavaScript",
         "APIs"
       ],
-      "netlify": "link",
-      "github": "link"
+      "description": "A responsive weather app built with JavaScript, HTML, and CSS. It fetches real-time weather data via an API and displays the city name, temperature, weather conditions, sunrise/sunset times, and a 4-day forecast in a user-friendly interface.",
+      "netlify": "https://project-weather-app-by-joe.netlify.app/",
+      "github": "https://github.com/joheri1/project-weather-app"
     }
   ]
 }
