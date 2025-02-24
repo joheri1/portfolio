@@ -1,0 +1,36 @@
+.button {
+  border-radius: 0.75rem;
+  background: #000;
+  color: #FFF;
+  display: flex;
+  width: 18rem;
+  height: 3rem;
+  padding-left: 1rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 2rem;
+}
+
+.white-button {
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+}
+
+.button span,
+.white-button span {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "poppins";
+}
+
+.span {
+  text-decoration: none; 
+}

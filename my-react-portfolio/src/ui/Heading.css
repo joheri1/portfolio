@@ -1,0 +1,31 @@
+.heading {
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.heading1 {
+  font-size: 3.75rem; /* 60px */
+}
+
+.heading2 {
+  font-size: 3rem; /* 48px */
+}
+
+.heading3 {
+  font-size: 2rem; /* 32px */
+}
+
+.heading4 {
+  font-size: 1.5rem; /* 24px */
+}
+
+.heading5 {
+  font-size: 1.25rem; /* 20px */
+}
+
+.heading6 {
+  font-size: 1rem; /* 16px */
+}
+
