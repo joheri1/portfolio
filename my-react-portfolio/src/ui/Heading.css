@@ -1,12 +1,17 @@
+/* 🌍 Global heading styling */
 .heading {
   font-weight: 700;
   text-align: center;
   line-height: 1.2;
   margin-bottom: 1rem;
+  font-family: inherit; 
+  color: var(--secondary-color); 
 }
 
+/* 📏 Dynamic font-sizes */
 .heading1 {
-  font-size: 3.75rem; /* 60px */
+  /*font-size: 3.75rem; /* 60px */
+  font-size: 6.25rem; /* 100px */
 }
 
 .heading2 {
@@ -29,3 +34,49 @@
   font-size: 1rem; /* 16px */
 }
 
+/* Responsivness - Tablet */
+@media (max-width: 768px) {
+  .heading1 {
+    font-size: 3rem; /* 48px */
+  }
+
+  .heading2 {
+    font-size: 2.5rem; /* 40px */
+  }
+
+  .heading3 {
+    font-size: 1.75rem; /* 28px */
+  }
+
+  .heading4 {
+    font-size: 1.375rem; /* 22px */
+  }
+
+  .heading5, .heading6 {
+    font-size: 1.125rem; /* 18px */
+  }
+}
+
+/* Responsivness - Mobile */
+
+@media (max-width: 480px) {
+  .heading1 {
+    font-size: 2.5rem; /* 40px */
+  }
+
+  .heading2 {
+    font-size: 2rem; /* 32px */
+  }
+
+  .heading3 {
+    font-size: 1.5rem; /* 24px */
+  }
+
+  .heading4 {
+    font-size: 1.25rem; /* 20px */
+  }
+
+  .heading5, .heading6 {
+    font-size: 1rem; /* 16px */
+  }
+}

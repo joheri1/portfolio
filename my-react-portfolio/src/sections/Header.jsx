@@ -1,12 +1,16 @@
+import { Heading } from "../ui/Heading";
+import "./Header.css";
+
 export const Header = () => {
   return (
-    <section id="header-name">
-      <div className="header-container">
-        <div className="header-content">
-          <h2>Header</h2>
-          <p>This is the {`<Header />`} component.</p>
-        </div>
-      </div>
-    </section>
+    <header className="header-section">
+      <Heading heading="Hi there, I’m" level={2} className="welcome" />
+      <Heading heading="Johanna Eriksson" level={1} className="name" />
+      <Heading 
+        heading="A senior system administrator transitioning into a developer role." 
+        level={3} 
+        className="intro-text" 
+      />
+    </header>
   );
 };

@@ -1,43 +1,45 @@
-.bio-card {
-  background-color: #000;
-  max-width: 782px;
+.header {
+  display: flex;
+  padding: 8rem 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  font-family: inherit;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  padding: 64px 0px 128px 0px;
-
 }
 
-.bio-card .bio-heading,
-.bio-text {
-  color: #FFF;
-}
-
-.bio-text {
-  text-align: center;
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 400;
-  display: block;
-  margin-top: 10px;
-  overflow-wrap: break-word;
-}
-
-
-/* Media query for tablet */
 @media (max-width: 768px) {
-  .bio-card {
-    padding: 4rem 1.5rem 8rem 1.5rem;
+  .header {
+    padding: 4rem 1.5rem;
   }
 }
 
+/* Welcome text */
+.welcome {
+  margin: 0;
+}
 
-/* Media query for mobile */
+/* Name */
+.name {
+  margin: 0.5rem 0;
+  line-height: normal;
+  width: auto;
+}
+
 @media (max-width: 480px) {
-  .bio-card {
-    padding: 4rem 1rem 4rem;
-  }
-
-  .bio-text {
-    font-size: 1rem;
+  .name {
+    font-size: 3.75rem; 
   }
 }
+
+/* Intro-text */ 
+.intro-text {
+  text-align: center;
+  margin: 0;
+}
+

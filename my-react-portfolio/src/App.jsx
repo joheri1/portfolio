@@ -14,8 +14,8 @@ export const App = () => {
   return (
     <>
       <Header />
-      <Bio />
       <Gallery />
+      <Bio />
       <Projects />
       <Tech />
       <Skills />
