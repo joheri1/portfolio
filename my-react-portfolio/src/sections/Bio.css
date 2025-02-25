@@ -1,45 +1,22 @@
-.header {
+
+.bio-section {
   display: flex;
-  padding: 8rem 1.5rem;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center; 
+  align-items: center; 
   text-align: center;
-  gap: 1rem;
-  font-family: inherit;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  max-width: 800px;
-  width: 100%;
   margin: 0 auto;
+  max-width: 900px;
+  height: 70vh; 
+  background-color: var(--primary-color); 
+  color: var(--secondary-color); 
+  font-family: inherit;
+  max-width: 1200px; 
+  min-width: 900px;
 }
-
-@media (max-width: 768px) {
-  .header {
-    padding: 4rem 1.5rem;
-  }
-}
-
-/* Welcome text */
-.welcome {
-  margin: 0;
-}
-
-/* Name */
-.name {
-  margin: 0.5rem 0;
-  line-height: normal;
-  width: auto;
-}
-
-@media (max-width: 480px) {
-  .name {
-    font-size: 3.75rem; 
-  }
-}
-
-/* Intro-text */ 
-.intro-text {
-  text-align: center;
-  margin: 0;
+.bio-card {
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  max-width: 74rem;
 }
 

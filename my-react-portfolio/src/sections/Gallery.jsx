@@ -2,7 +2,7 @@ import "./Gallery.css";
 
 export const Gallery = () => {
   return (
-    <section className="projects-gallery">
+    <section className="gallery-container">
       <div className="gallery">
         <img src="/todo_list.png" alt="gallery-image-todo" className="image left" />
         <img src="/happy.png" alt="gallery-image-happy" className="image middle" />

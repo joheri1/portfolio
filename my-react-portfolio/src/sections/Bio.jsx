@@ -8,11 +8,8 @@ export const Bio = () => {
         <Heading heading="Bio" level={2} className="bio-heading" />
         <div className="bio-text">
           <p>
-            Johanna is a senior system administrator transitioning into a developer role. 
-            With a keen curiosity and a passion for learning, she thrives on tackling new 
-            challenges and exploring innovative solutions. Her creativity and attention to 
-            detail allow her to build intuitive, user-friendly applications, always with a 
-            focus on functionality and great design. Engaged and adaptable, she brings both 
+            With a keen curiosity and a passion for learning, Johanna thrives on tackling new 
+            challenges and exploring innovative solutions. Engaged, creative and adaptable, she brings both 
             structure and fresh ideas to every project she takes on.
           </p>
         </div>
