@@ -1,0 +1,55 @@
+{
+  "skills": [
+    {
+      "name": "Frontend",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript/ES6",
+        "React",
+        "React Router",
+        "TypeScript",
+        "Styled Components",
+        "Tailwind CSS",
+        "Zustand",
+        "Responsive Design",
+        "Accessibility/A11y"
+      ]
+    },
+    {
+      "name": "Backend",
+      "tags": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Mongoose",
+        "RESTful API",
+        "Authentication"
+      ]
+    },
+    {
+      "name": "Toolbox",
+      "tags": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Figma",
+        "Chrome DevTools",
+        "Netlify",
+        "Render",
+        "Postman",
+        "MongoDB Compass"
+      ]
+    },
+    {
+      "name": "Other Skills",
+      "tags": [
+        "ServiceNow",
+        "System ownership",
+        "Telecommunications",
+        "ITIL"
+      ]
+    }
+  ]
+}
+

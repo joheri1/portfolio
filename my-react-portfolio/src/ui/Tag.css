@@ -29,12 +29,13 @@
 
 /* 🔹 Skill-tag uses accent-color */
 .skill-tag {
-  width: 180px;
+  min-width: 180px; 
   border: 1px solid var(--primary-color);
-  height: 24px;
-  padding: 1px 4px;
+  height: auto;
+  padding: 4px 8px;
   background: var(--accent-color);
   color: var(--secondary-color);
+  font-weight: bold;
 }
 
 /* 📱 Breakpoint: Tablet och upp */

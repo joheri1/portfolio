@@ -33,8 +33,7 @@ export const Projects = () => {
   return (
     <Grid background="secondary">
       <div className="projects-container">
-        <Heading heading="Featured Projects" />
-
+        <Heading heading="Featured Projects" level={2} className="projects-heading" />
         <div className="project-wrapper">
           {projects.length > 0 ? (
             projects.map((project, index) => (
