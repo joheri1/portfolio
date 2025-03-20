@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import { Heading } from "./Heading";
 import { Button } from "./Button";
-import webIcon from "../assets/Web_Icon.svg";
-import gitHubIcon from "../assets/Github_Icon.svg";
+import iconWeb from "../assets/iconWeb.svg";
+import iconGithub from "../assets/iconGithub.svg";
 import "./ProjectCard.css";
 
 export const ProjectCard = ({
@@ -50,12 +50,12 @@ export const ProjectCard = ({
               <Button
                 text={button1Text}
                 onClick={() => window.open(button1Link, "_blank")}
-                icon={webIcon}
+                icon={iconWeb}
               />
               <Button
                 text="View Code"
                 onClick={() => window.open(button2Link, "_blank")}
-                icon={gitHubIcon}
+                icon={iconGithub}
                 className="button-secondary"
               />
             </>

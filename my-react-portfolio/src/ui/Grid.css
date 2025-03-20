@@ -1,0 +1,49 @@
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 64px 16px;
+  background: var(--primary-color); 
+}
+
+.grid-section[data-background="primary"] {
+  background: var(--primary-color);
+}
+
+.grid-section[data-background="secondary"] {
+  background: var(--secondary-color);
+}
+
+.grid-section[data-background="accent"] {
+  background: var(--accent-color);
+}
+
+/* Breakpoint for tablet */
+@media (min-width: 480px) and (max-width: 768px) {
+  .grid-section {
+    grid-template-columns: repeat(8, 1fr);
+    padding: 128px 24px;
+  }
+}
+
+/* Breakpoint for small desktop */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .grid-section {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+/* Medium screen */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .grid-section {
+    grid-template-columns: repeat(12, 1fr);
+    padding: 128px 64px;
+  }
+}
+
+/* Large skärm */
+@media (min-width: 1201px) {
+  .grid-section {
+    grid-template-columns: repeat(12, 1fr);
+    padding: 128px 128px;
+  }
+}
