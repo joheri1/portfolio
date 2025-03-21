@@ -4,19 +4,15 @@
   justify-content: center; 
   align-items: center; 
   text-align: center;
-  margin: 0 auto;
-  max-width: 900px;
-  height: 70vh; 
-  background-color: var(--primary-color); 
-  color: var(--secondary-color); 
+  height: 40vh; 
+  background-color: inherit; 
+  color: inherit; 
   font-family: inherit;
   max-width: 1200px; 
   min-width: 900px;
 }
 .bio-card {
   align-items: center;
-  margin: 0 auto;
-  padding: 0 1.5rem;
   max-width: 74rem;
 }
 

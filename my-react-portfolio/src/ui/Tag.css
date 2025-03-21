@@ -34,7 +34,7 @@
   height: auto;
   padding: 4px 8px;
   background: var(--accent-color);
-  color: var(--secondary-color);
+  color: inherit;
   font-weight: bold;
 }
 

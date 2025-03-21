@@ -1,19 +1,19 @@
-import { Heading } from "../ui/Heading";
+import { Grid } from "../ui/Grid";
+import { Typography } from "../ui/Typography/Typography.jsx";
 import "./Bio.css";
 
 export const Bio = () => {
   return (
+  <Grid background="primary">
     <section className="bio-section">
       <div className="bio-card">
-        <Heading heading="Bio" level={2} className="bio-heading" />
-        <div className="bio-text">
-          <p>
-            With a keen curiosity and a passion for learning, Johanna thrives on tackling new 
-            challenges and exploring innovative solutions. Engaged, creative and adaptable, she brings both 
-            structure and fresh ideas to every project she takes on.
-          </p>
-        </div>
+        <Typography variant="h2" className="bio-heading">Bio</Typography>
+        <Typography variant="p" className="bio-text">
+          With a keen curiosity and a passion for learning, Johanna thrives on tackling new 
+          challenges and exploring innovative solutions. Engaged, creative and adaptable, she brings both structure and fresh ideas to every project she takes on.
+          </Typography>
       </div>
     </section>
+  </Grid>
   );
 };

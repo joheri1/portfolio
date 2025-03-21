@@ -1,25 +1,25 @@
-/* 🔄 Import Poppins from Google Fonts */
+/* Import Poppins from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 :root {
-  /* 🌍 Add colors on whole page */
+  /* Add colors on whole page */
   --primary-color: #000000;
   --secondary-color: #FFFFFF;
   --accent-color: #7e7070;
 
-  /* 🎨 Light & dark themes */
+  /* Light & dark themes */
   color-scheme: light dark;
   color: var(--secondary-color);
   background-color: var(--primary-color);
 
-  /* 🖥️ Rendering improvements */
+  /* Rendering improvements */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* 🏠 Basic body-styling */
+/* Basic body-styling */
 body {
   font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -34,33 +34,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   text-align: center;
-}
-
-h1 {
-  font-size: 3.2em;
-  font-weight: 700;
-  line-height: 1.1;
-}
-
-h2 {
-  /*font-size: 2.5em;*/
-  font-size: 5rem;
-  font-weight: 600;
-}
-
-h3 {
-  font-size: 1.875rem;
-  font-weight: 500;
-}
-
-h4 {
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-h5, h6 {
-  font-size: 1.25rem;
-  font-weight: 400;
+  box-sizing: border-box;
 }
 
 /* 🌐 Links */

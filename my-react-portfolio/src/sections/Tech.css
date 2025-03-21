@@ -1,6 +1,3 @@
-.grid-section {
-  display: grid;
-}
 
 .tech-section {
   text-align: center;
@@ -31,6 +28,6 @@
 }
 @media (min-width: 1024px) {
   .tech-content-section p{ 
-    max-width: 782px;
+    max-width: 100%;
   }
 }

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Heading } from "/src/ui/Heading.jsx";
+import { Typography } from "/src/ui/Typography/Typography.jsx";
 import { ProjectCard } from "../ui/ProjectCard";
 import { Grid } from "../ui/Grid";
 import { Button } from "../ui/Button";
@@ -33,7 +33,7 @@ export const Projects = () => {
   return (
     <Grid background="secondary">
       <div className="projects-container">
-        <Heading heading="Featured Projects" level={2} className="projects-heading" />
+        <Typography variant="h2" className="projects-heading">Featured Projects</Typography>
         <div className="project-wrapper">
           {projects.length > 0 ? (
             projects.map((project, index) => (

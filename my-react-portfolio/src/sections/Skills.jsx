@@ -1,6 +1,6 @@
 import skillsData from "/src/data/skills.json";
 import { Tag } from "/src/ui/Tag.jsx";
-import { Typography } from "/src/ui/Typography.jsx";
+import { Typography } from "/src/ui/Typography/Typography.jsx";
 import { Grid } from "/src/ui/Grid.jsx";
 import "./Skills.css";
 
@@ -16,9 +16,7 @@ export const Skills = () => {
                 <Tag sectionType="skill" text={skill.name} />
                 <ul>
                   {skill.tags.map((tag, index) => (
-                    <li key={index}>
-                      <Typography variant="p">{tag}</Typography>
-                    </li>
+                    <li key={index}>{tag}</li>
                   ))}
                 </ul>
               </div>

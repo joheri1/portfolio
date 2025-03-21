@@ -1,58 +1,59 @@
 .grid-section {
-  /*display: grid;*/
-  grid-template-columns: repeat(4, 1fr);
-  padding: 64px 16px;
-  background: var(--primary-color); 
+  display: flex; 
+  justify-content: center;
+  padding: 64px 16px; 
+  background: var(--primary-color);
+  width: 100%;
 }
 
+/* Center content and limit width */
+.grid-section > * {
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Background + text color depending on "theme" */
 .grid-section[data-background="primary"] {
   background: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .grid-section[data-background="secondary"] {
-  background: var(--secondary-color); 
+  background: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .grid-section[data-background="accent"] {
   background: var(--accent-color);
+  color: var(--secondary-color);
 }
 
-/* Dynamic text color */
-.grid-section[data-text="dark"] {
-  color: var(--primary-color);
-}
-
-.grid-section[data-text="light"] {
-  color: var(--secondary-color); 
-}
-
-/* Breakpoint for tablet */
+/* Tablet */
 @media (min-width: 480px) and (max-width: 768px) {
   .grid-section {
-    grid-template-columns: repeat(8, 1fr);
-    padding: 128px 24px;
+    padding: 96px 24px;
   }
 }
 
-/* Breakpoint for small desktop */
+/* Small desktop */
 @media (min-width: 769px) and (max-width: 1024px) {
   .grid-section {
-    grid-template-columns: repeat(12, 1fr);
+    padding: 96px 64px;
   }
 }
 
 /* Medium screen */
 @media (min-width: 1025px) and (max-width: 1200px) {
   .grid-section {
-    grid-template-columns: repeat(12, 1fr);
-    padding: 128px 64px;
+    padding-block: 96px 64px; /* topp: 96px, bottom: 64px */
+    padding-inline: 64px;
   }
 }
 
-/* Large skärm */
+/* Large screen */
 @media (min-width: 1201px) {
   .grid-section {
-    grid-template-columns: repeat(12, 1fr);
-    padding: 128px 128px;
+    padding-block: 96px 64px;
+    padding-inline: 128px;
   }
 }
