@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Heading } from "./Heading";
+import { Typography } from "./Typography/Typography";
 import { Button } from "./Button";
 import iconWeb from "../assets/iconWeb.svg";
 import iconGithub from "../assets/iconGithub.svg";
@@ -34,8 +34,8 @@ export const ProjectCard = ({
         )}
 
         {/* Project heading and description */}
-        <Heading heading={title} level={3} className="project-title" />
-        <p className="project-description">{description}</p>
+        <Typography variant="h3" className="project-title">{title}</Typography>
+        <Typography variant="p" className="project-description">{description}</Typography>
 
         {/* Buttons */}
         <div className="buttons">

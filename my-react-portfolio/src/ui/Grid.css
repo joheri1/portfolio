@@ -17,6 +17,15 @@
   background: var(--accent-color);
 }
 
+/* Dynamic text color */
+.grid-section[data-text="dark"] {
+  color: var(--primary-color);
+}
+
+.grid-section[data-text="light"] {
+  color: var(--secondary-color); 
+}
+
 /* Breakpoint for tablet */
 @media (min-width: 480px) and (max-width: 768px) {
   .grid-section {

@@ -1,5 +1,5 @@
-/* 🌍 Global heading styling */
-.heading {
+/* Global typography styling */
+.typography {
   font-weight: 700;
   text-align: center;
   line-height: 1.2;
@@ -8,76 +8,84 @@
   color: var(--secondary-color); 
 }
 
-/* Dynamic font-sizes */
-.heading1 {
-  /*font-size: 3.75rem; /* 60px */
+/* Dynamic font sizes */
+.typography.h1 {
   font-size: 6.25rem; /* 100px */
 }
 
-.heading2 {
+.typography.h2 {
   font-size: 3rem; /* 48px */
 }
 
-.heading3 {
+.typography.h3 {
   font-size: 2rem; /* 32px */
   font-weight: 500;
 }
 
-.heading4 {
+.typography.h4 {
   font-size: 1.5rem; /* 24px */
 }
 
-.heading5 {
+.typography.h5 {
   font-size: 1.25rem; /* 20px */
 }
 
-.heading6 {
+.typography.h6 {
   font-size: 1rem; /* 16px */
 }
 
-/* Responsivness - Tablet */
+/* Dynamic text color */
+.grid-section[data-text="dark"] {
+  color: var(--primary-color); /* svart text */
+}
+
+.grid-section[data-text="light"] {
+  color: var(--secondary-color); /* vit text */
+}
+
+/* Responsiveness - Tablet */
 @media (max-width: 768px) {
-  .heading1 {
+  .typography.h1 {
     font-size: 3rem; /* 48px */
   }
 
-  .heading2 {
+  .typography.h2 {
     font-size: 2.5rem; /* 40px */
   }
 
-  .heading3 {
+  .typography.h3 {
     font-size: 1.75rem; /* 28px */
   }
 
-  .heading4 {
+  .typography.h4 {
     font-size: 1.375rem; /* 22px */
   }
 
-  .heading5, .heading6 {
+  .typography.h5, .typography.h6 {
     font-size: 1.125rem; /* 18px */
   }
 }
 
-/* Responsivness - Mobile */
-
+/* Responsiveness - Mobile */
 @media (max-width: 480px) {
-  .heading1 {
+  .typography.h1 {
     font-size: 2.5rem; /* 40px */
   }
 
-  .heading2 {
+  .typography.h2 {
     font-size: 2rem; /* 32px */
   }
 
-  .heading3 {
+  .typography.h3 {
     font-size: 1.5rem; /* 24px */
   }
 
-  .heading4 {
+  .typography.h4 {
     font-size: 1.25rem; /* 20px */
   }
 
-  .heading5, .heading6 {
+  .typography.h5, .typography.h6 {
     font-size: 1rem; /* 16px */
   }
 }
+
