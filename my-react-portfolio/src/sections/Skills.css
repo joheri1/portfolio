@@ -8,14 +8,13 @@
 }
 
 .skills-heading {
-  font-size: 3rem;
-  font-weight: bold;
   margin-bottom: 40px;
+  color: var(--primary-color);
 }
 
 .skill-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  grid-template-columns: repeat(4, 1fr);
   gap: 32px;
   max-width: 1000px;
   width: 100%;
@@ -35,14 +34,14 @@
   font-weight: bold;
   background: var(--secondary-color);
   color: var(--primary-color);
-  min-width: 150px; /* 🔹 Ger en jämn storlek */
-  width: 100%; /* 🔹 Säkerställer att alla blir lika breda */
+  min-width: 150px; 
+  width: 100%; 
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px; /* 🔹 Gör alla lika höga */
-  box-sizing: border-box; /* 🔹 Säkerställer att padding inte påverkar storleken */
+  height: 50px; 
+  box-sizing: border-box; 
 }
 
 .skill-category ul {

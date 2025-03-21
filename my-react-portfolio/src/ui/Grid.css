@@ -1,5 +1,5 @@
 .grid-section {
-  display: grid;
+  /*display: grid;*/
   grid-template-columns: repeat(4, 1fr);
   padding: 64px 16px;
   background: var(--primary-color); 
@@ -10,7 +10,7 @@
 }
 
 .grid-section[data-background="secondary"] {
-  background: var(--secondary-color);
+  background: var(--secondary-color); 
 }
 
 .grid-section[data-background="accent"] {
