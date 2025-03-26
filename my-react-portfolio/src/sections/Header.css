@@ -3,15 +3,13 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-
-  padding-block: 6rem 3rem; 
-  padding-inline: 1.5rem;
-
+  gap: 1rem;
+  /*padding-block: 6rem 3rem; 
+  padding-inline: 1.5rem;*/
+  padding: 8rem 0rem;
   background-color: var(--primary-color); 
   color: var(--secondary-color); 
-
   font-family: inherit;
-
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
@@ -23,20 +21,11 @@
   text-align: center;
   color: inherit;
   margin: 0;
-
   max-width: 800px;
   width: 100%;
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
-
-/* Welcome text */
-.welcome {
-  font-weight: 500;
-  color: inherit;
-  margin: 0;
-}
-
 /* Name */
 .name {
   font-weight: 700;
@@ -44,6 +33,12 @@
   margin: 0.5rem 0;
   line-height: normal;
   font-size: 4rem;
+}
+/* Welcome text */
+.welcome {
+  font-weight: 500;
+  color: inherit;
+  margin: 0;
 }
 
 /* Responsiveness: Tablet */

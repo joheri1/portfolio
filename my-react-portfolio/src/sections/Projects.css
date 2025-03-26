@@ -55,6 +55,8 @@
 /* Breakpoint for larger screens */
 @media (min-width: 1024px) {
   .projects-container {
-    max-width: 1400px;
+    padding: 8rem 0rem;
+    gap: 8rem;
+    max-width: 100%;
   }
 }

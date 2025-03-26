@@ -7,8 +7,8 @@ import "./Skills.css";
 export const Skills = () => {
   return (
     <Grid background="secondary">
-      <section className="skill-section">
-        <Typography variant="h2" className="skills-heading">Skills</Typography>
+      <section className="skill-container">
+        <Typography variant="h2" className="skill-heading">Skills</Typography>
         <div className="skill-wrapper">
           {skillsData?.skills?.length > 0 ? (
             skillsData.skills.map((skill) => (

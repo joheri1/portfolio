@@ -12,6 +12,7 @@
 .typography.h1 {
   font-size: 6.25rem; /* 100px */
   font-weight: 700;
+  line-height: normal;
 }
 
 .typography.h2 {

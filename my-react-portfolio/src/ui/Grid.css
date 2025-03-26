@@ -45,7 +45,8 @@
 /* Medium screen */
 @media (min-width: 1025px) and (max-width: 1200px) {
   .grid-section {
-    padding-block: 96px 64px; /* topp: 96px, bottom: 64px */
+   /* padding-block: 0px 64px; /* topp: 96px, bottom: 64px */
+    padding: 0rem 8rem;
     padding-inline: 64px;
   }
 }
@@ -53,7 +54,7 @@
 /* Large screen */
 @media (min-width: 1201px) {
   .grid-section {
-    padding-block: 96px 64px;
+    padding-block: 0px 64px;
     padding-inline: 128px;
   }
 }

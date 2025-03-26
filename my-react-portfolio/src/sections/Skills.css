@@ -1,14 +1,14 @@
 
-.skill-section {
+.skill-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: center;
-  padding: 50px 20px;
+  align-items: center;
+  padding: 8rem 0rem;
+  gap: 1.5rem;
 }
 
-.skills-heading {
-  margin-bottom: 40px;
+.skill-heading {
   color: var(--primary-color);
 }
 
@@ -62,7 +62,7 @@
 
 /* 📱 Responsiv design */
 @media (max-width: 768px) {
-  .skills-heading {
+  .skill-heading {
     font-size: 2.5rem;
   }
   
@@ -75,5 +75,14 @@
 @media (max-width: 480px) {
   .skill-wrapper {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+ @media (min-width: 1400px) {
+  .skill-container {
+    padding: 8rem 0rem;
+    align-items: center;
+  } 
+  .skill-wrapper {
+    width: 85%;
   }
 }
