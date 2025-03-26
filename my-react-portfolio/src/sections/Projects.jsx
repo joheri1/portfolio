@@ -3,16 +3,13 @@ import { Typography } from "/src/ui/Typography/Typography.jsx";
 import { ProjectCard } from "../ui/ProjectCard";
 import { Grid } from "../ui/Grid";
 import { Button } from "../ui/Button";
-import { Tag } from "../ui/Tag";
 import iconArrow from "/src/assets/iconArrow.svg";
 import "./Projects.css";
 
 export const Projects = () => {
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-
     fetch("/data/projects.json")
       .then((response) => {
         if (!response.ok) {
@@ -22,12 +19,6 @@ export const Projects = () => {
       })
       .then((data) => setProjects(data.projects))
       .catch((error) => console.error("Error fetching projects:", error));
-
-    const handleResize = () => {
-      setIsDesktop(window.innerWidth >= 1024);
-    };
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
@@ -38,22 +29,15 @@ export const Projects = () => {
           {projects.length > 0 ? (
             projects.map((project, index) => (
               <ProjectCard
-                key={project.name}
-                imageSource={`/assets/${project.image.replace("/", "")}`} 
-                cardTag={project.tags}
-                cardTitle={project.name}
-                cardDescription={project.description}
-                sectionType="project"
-                netlify={project.netlify}
-                github={project.github}
-                isReversed={isDesktop && index % 2 === 1}
-              >
-                <div className="tag-container">
-                  {project.tags.map((tag, i) => (
-                    <Tag key={i} sectionType="project" text={tag} />
-                  ))}
-                </div>
-              </ProjectCard>
+              key={project.name}
+              image={project.image}
+              tags={project.tags}
+              title={project.name}
+              description={project.description}
+              button1Link={project.netlify}
+              button2Link={project.github}
+              isReversed={index % 2 !== 0}
+            />
             ))
           ) : (
             <p className="loading-text">Loading projects...</p>
