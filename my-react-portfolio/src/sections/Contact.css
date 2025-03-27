@@ -1,48 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800&display=swap');
-
-html, body {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-variation-settings: "wdth" 800;
-  color: #111;
-}
-
 .contact-section {
   width: 100%;
-  min-height: 50vh;
-  display: flex;
-  align-items: flex-end; /* Låter innehållet hamna i botten */
-  justify-content: center;
-  padding: 2rem;
+  height: auto;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 8rem 0rem;
+  gap: 4rem;
+  align-items: center;
+  align-self: stretch;
+  display: flex;
 }
 
-.contact-section h1 {
-  width: 32vw;
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
 }
-
-.contact-section h1 span {
-  display: block;
-  font-size: 7vw;
-  position: relative;
-  margin-bottom: 3vw;
-  padding: 0 1vw;
-  width: fit-content;
-  --bg: transparent;
+.contact-photo {
+  width: 10.25rem;
+  height: 10.25rem;
+  border-radius: 10.25rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  object-position: bottom;
 }
-
-.contact-section h1 span:after {
-  z-index: -1;
-  border-radius: 1vw;
-  content: "";
+.contact-content {
+  /*position: absolute;*/
+  bottom: 2rem;
   width: 100%;
-  height: 33%;
-  left: 0;
-  bottom: 0;
-  position: absolute;
-  background: var(--bg);
+  text-align: center;
+  gap: .5rem;
+  display: flex;
+  flex-direction: column;
+}
+.social-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  height: 10rem;
+  width: 100%;
 }
 
+@media (min-width: 1024px) {
+  .contact-info {
+      width: 60%;
+      align-items: center;
+      padding-left: 0;
+  }
+}
