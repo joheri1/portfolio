@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Chatbot",
-      "image": "/CoffeeBot.png",
+      "image": "CoffeeBot.png",
       "tags": [
         "HTML5",
         "CSS3",
@@ -13,15 +13,31 @@
       "github": "https://github.com/joheri1/project-chatbot"
     },
     {
+      "name": "Happy Thoughts app",
+      "image": "happy.png",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "MongoDB",
+        "Express",
+        "APIs"
+      ],
+      "description": "A feel-good app that lets users post, like, and browse short messages – all updated in real time. Built with React, Express, and MongoDB.",
+      "netlify": "https://project-happy-thoughts-x.netlify.app/",
+      "github": "https://github.com/joheri1/project-happy-thoughts-vite"
+    },
+    {
       "name": "Weather app",
-      "image": "/WeatherApp.png",
+      "image": "WeatherApp.png",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript",
         "APIs"
       ],
-      "description": "A responsive weather app built with JavaScript, HTML, and CSS. It fetches real-time weather data via an API and displays the city name, temperature, weather conditions, sunrise/sunset times, and a 4-day forecast in a user-friendly interface.",
+      "description": "A responsive weather app that displays current conditions and a 4-day forecast based on real-time data from a selected city. Built with JavaScript, HTML, and CSS.",
       "netlify": "https://project-weather-app-by-joe.netlify.app/",
       "github": "https://github.com/joheri1/project-weather-app"
     }

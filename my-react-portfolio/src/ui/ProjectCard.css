@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2rem;
+  gap: 7.8125rem;
   margin-bottom: 4rem;
 }
 
@@ -15,10 +15,21 @@
 }
 
 .project-image {
-  width: 100%;
-  height: auto;
-  border-radius: 1rem;
+  width: 479px;
+  height: 479px;
   object-fit: cover;
+  object-position: top;
+  border-radius: 1rem;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+.project-image:hover {
+  transform: scale(1.02);
+}
+
+.project-description {
+  gap: 1rem;
+  text-align: left;
 }
 
 .project-content {
@@ -38,5 +49,17 @@
   align-items: flex-start;
   gap: 0.25rem;
   align-self: stretch;
+}
+
+@media (max-width: 1023px) {
+  .project-card {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
 }
 
