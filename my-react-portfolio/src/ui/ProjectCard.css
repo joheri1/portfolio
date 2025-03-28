@@ -27,6 +27,10 @@
   transform: scale(1.02);
 }
 
+.project-title {
+  margin-top: 2rem;
+}
+
 .project-description {
   gap: 1rem;
   text-align: left;
@@ -39,7 +43,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1rem;
   align-self: stretch;
 }
 
@@ -61,5 +64,15 @@
     width: 100%;
     height: auto;
   }
-}
+@media (min-width: 1024px) {
+  .project-card {
+    gap: 7.8125rem;
+    width: 36.25rem;
+  }
 
+  .project-image {
+    width: 479px;
+    height: 479px;
+  }
+}
+}

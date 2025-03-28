@@ -16,3 +16,16 @@
   max-width: 74rem;
 }
 
+@media (max-width: 1024px) {
+  .bio-section {
+    height: 50vh;
+  }
+  .bio-card {
+    max-width: 35%;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    overflow-x: overlay;
+  }
+}
+

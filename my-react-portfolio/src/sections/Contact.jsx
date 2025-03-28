@@ -16,7 +16,7 @@ export const Contact = () => {
         </div>
         <div className="social-links">
           <a
-            href="https://www.linkedin.com/in/johanna-eriksson-3b0b7b1b/"
+            href="https://www.linkedin.com/in/johanna-e-594254155/"
             target="_blank"
             rel="noreferrer"
           >
