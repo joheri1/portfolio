@@ -5,7 +5,7 @@ import "./Bio.css";
 export const Bio = () => {
   return (
   <Grid background="primary">
-    <section className="bio-section">
+    <section id="bio-name" className="bio-section">
       <div className="bio-card">
         <Typography variant="h2" className="bio-heading">Bio</Typography>
         <Typography variant="p" className="bio-text">

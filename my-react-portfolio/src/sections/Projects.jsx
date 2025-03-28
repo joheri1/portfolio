@@ -23,14 +23,15 @@ export const Projects = () => {
 
   return (
     <Grid background="secondary">
-      <div className="projects-container">
+      <section id="project-name" className="projects-container">
         <Typography variant="h2" className="projects-heading">Featured Projects</Typography>
         <div className="project-wrapper">
           {projects.length > 0 ? (
             projects.map((project, index) => (
               <ProjectCard
               key={project.name}
-              image={`/assets/${project.image}`}
+              image={project.image}
+              imageLink={project.link} 
               tags={project.tags}
               title={project.name}
               description={project.description}
@@ -54,7 +55,7 @@ export const Projects = () => {
             target="_blank"
           />
         </div>
-      </div>
+      </section>
     </Grid>
   );
 };
