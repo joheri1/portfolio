@@ -21,7 +21,6 @@
         "JavaScript",
         "React",
         "MongoDB",
-        "Express",
         "APIs"
       ],
       "description": "A feel-good app that lets users post, like, and browse short messages – all updated in real time. Built with React, Express, and MongoDB.",
@@ -40,8 +39,8 @@
         "Design"
       ],
       "description": "In this design handoff project, I implemented a responsive interface based on detailed Figma designs from the design team.",
-      "netlify": "https://project-happy-thoughts-x.netlify.app/",
-      "github": "https://github.com/joheri1/project-happy-thoughts-vite"
+      "netlify": "johanna-eriksson-portfolio.netlify.app",
+      "github": "https://github.com/joheri1/project-portfolio/blob/main/my-portfolio/README.md"
     },
     {
       "name": "Weather app",
