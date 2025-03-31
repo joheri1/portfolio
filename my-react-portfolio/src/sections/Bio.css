@@ -1,31 +1,48 @@
-
 .bio-section {
   display: flex;
   justify-content: center; 
   align-items: center; 
   text-align: center;
-  height: 40vh; 
   background-color: inherit; 
   color: inherit; 
   font-family: inherit;
   max-width: 1200px; 
-  min-width: 900px;
 }
 .bio-card {
   align-items: center;
-  max-width: 74rem;
+  word-break: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  overflow-x: overlay;
 }
 
-@media (max-width: 1024px) {
+/* Breakpoint for mobile */
+@media (max-width: 480px) {
+  .bio-section {
+    max-width: 100%;
+    box-sizing: border-box;
+    min-width: 80%;
+    height: fit-content;
+  }
+
+  .bio-card {
+    padding: 64px 16px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* Breakpoint for tablet */
+@media (min-width: 480px) and (max-width: 768px) {
+  .bio-card {
+    padding: 24px 24px;
+    max-width: 80%;
+  }
+}
+
+/* Breakpoint for larger screens */
+@media (min-width: 1024px) {
   .bio-section {
     height: 50vh;
   }
-  .bio-card {
-    max-width: 35%;
-    white-space: normal;
-    word-break: break-word;
-    overflow-wrap: break-word;
-    overflow-x: overlay;
-  }
 }
-
