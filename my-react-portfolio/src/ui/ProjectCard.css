@@ -54,25 +54,63 @@
   align-self: stretch;
 }
 
+/* Breakpoint for mobile */
+@media (max-width: 480px) {
+  .project-card {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .project-card.reversed {
+    flex-direction: column;
+  }
+  .project-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 9 / 16;
+    object-position: center;
+  }
+  .project-image-wrapper {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Breakpoint for tablet */
+@media (min-width: 480px) and (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .project-card.reversed {
+    flex-direction: column;
+  }
+  .project-image-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  .project-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 16 / 9;
+  }
+}
+
+/* Breakpoint for larger screens */
+
 @media (max-width: 1023px) {
   .project-card {
     flex-direction: column;
     gap: 2rem;
   }
-
-  .project-image {
+  .project-card.reversed {
+    flex-direction: column;
+  }
+  .project-image-wrapper {
     width: 100%;
     height: auto;
   }
-@media (min-width: 1024px) {
-  .project-card {
-    gap: 7.8125rem;
-    width: 36.25rem;
-  }
+}
 
-  .project-image {
-    width: 479px;
-    height: 479px;
-  }
-}
-}

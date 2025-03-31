@@ -109,10 +109,10 @@
       "tags": [
         "HTML5",
         "CSS3",
-        "Styled Components",
         "JavaScript",
         "React",
-        "Zustand"
+        "Zustand",
+        "Styled Components"
       ],
       "description": "The assignment was to build a Todo app using Zustand for state management. In this project, I aimed to explore Styled Components and refresh my newly acquired skills in using React Router.",
       "netlify": "https://johannas-checklists.netlify.app/",

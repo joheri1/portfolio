@@ -1,5 +1,13 @@
+/* This is the main CSS file for the React portfolio project */
+
+
 /* Import Poppins from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+img {
+  max-width: 100%;
+  display: block;
+}
 
 :root {
   /* Add colors on whole page */
