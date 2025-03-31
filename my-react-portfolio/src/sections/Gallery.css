@@ -27,13 +27,6 @@
   border: 0.5px solid grey;
 }
 
-/* Desktops */
-@media (min-width: 1024px) {
-  .image {
-    width: 22.375rem;
-  }
-}
-
 .middle {
   position: absolute;
   z-index: 1;
@@ -48,29 +41,38 @@
   transform: rotate(4.695deg);
 }
 
-/* Responsive - Large tablets */
-@media (max-width: 768px) {
-  .image {
-    width: 18.75rem;
-  }
-}
-/* Responsive - Small tablets */
-@media (max-width: 600px) {
-  .image {
-    width: 15.625rem;
-  }
-}
 
-/* Responsive - small mobile */
+/* Breakpoint small mobile */
 @media (max-width: 320px) {
-  .image {
-    width: 9.83rem;
+  .gallery {
+    width: 9.5rem;
+    max-width: 90%;
   }
 }
 
-/* Responsive - large mobile */
-@media (max-width: 480px) {
+/* Breakpoint large mobile */
+@media (min-width: 321px) and (max-width: 599px) {
+  .gallery {
+    width: 10.5em;
+  }
+}
+
+/* Breakpoint small tablets */
+@media (min-width: 600px) and (max-width: 767px)  {
+  .gallery {
+    width: 95%;
+  }
+}
+/* Breakpoint large tablets */
+@media (min-width: 768px) and (max-width: 1023px){
+  .gallery {
+    width: 20.375rem;
+  }
+}
+
+/* Breakpoint large screen */
+@media (min-width: 1024px) {
   .image {
-    width: 12.5rem;
+    width: 34.375rem;
   }
 }
