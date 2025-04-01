@@ -69,6 +69,9 @@
   .typography.h5, .typography.h6 {
     font-size: 1.125rem; /* 18px */
   }
+  .typography.p {
+    font-size: 1.6rem; /* 24px */
+  }
 }
 
 /* Responsiveness - Mobile */
@@ -91,6 +94,32 @@
 
   .typography.h5, .typography.h6 {
     font-size: 1rem; /* 16px */
+  }
+  .typography.p {
+    font-size: 1.125rem; /* 18px */
+  }
+}
+/* Responsiveness - Small mobile */
+@media (max-width: 320px) {
+  .typography.h1 {
+    font-size: 2rem; /* 40px */
+  }
+
+  .typography.h2 {
+    font-size: 1.5rem; /* 24px */
+  }
+
+  .typography.h3 {
+    font-size: 1.25rem; /* 20px */
+  }
+
+  .typography.h4, .typography.h5, .typography.h6 {
+    font-size: 1rem; /* 16px */
+  }
+  .typography.p {
+    font-size: 1rem; /* 16px */
+    font-weight: 400;
+    line-height: 1.6;
   }
 }
 

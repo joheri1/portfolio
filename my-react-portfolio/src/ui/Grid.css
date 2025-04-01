@@ -36,14 +36,14 @@
 }
 
 /* Small desktop */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1023px) {
   .grid-section {
     padding: 96px 64px;
   }
 }
 
 /* Medium screen */
-@media (min-width: 1025px) and (max-width: 1200px) {
+@media (min-width: 1024px) and (max-width: 1200px) {
   .grid-section {
    /* padding-block: 0px 64px; /* topp: 96px, bottom: 64px */
     padding: 0rem 8rem;
@@ -54,7 +54,7 @@
 /* Large screen */
 @media (min-width: 1201px) {
   .grid-section {
-    padding-block: 0px 64px;
-    padding-inline: 128px;
+    padding-block: 96px;     /* 96px above and under */
+    padding-inline: 128px;   /* 128px left and right */
   }
 }

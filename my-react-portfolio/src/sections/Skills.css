@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 8rem 0rem;
   gap: 1.5rem;
   align-items: center;
 }
@@ -45,8 +44,15 @@
   margin: 5px 0;
 }
 
-/* 📱 Responsiv design */
-@media (max-width: 768px) {
+/* Breakpoints small mobile*/
+
+@media (max-width: 480px) {
+  .skill-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* Breakpoints mobile */
+@media (min-width: 480px) and (max-width: 767px) {
   .skill-heading {
     font-size: 2.5rem;
   }
@@ -56,12 +62,13 @@
     gap: 24px;
   }
 }
-
-@media (max-width: 480px) {
-  .skill-wrapper {
-    grid-template-columns: repeat(1, 1fr);
+/* Breakpoint medium screen */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .skill-section {
+    padding: 8rem 0rem;
   }
 }
+/* Breakpoint large screen */
  @media (min-width: 1400px) {
   .skill-container {
     padding: 8rem 0rem;
