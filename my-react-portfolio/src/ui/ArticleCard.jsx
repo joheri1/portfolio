@@ -2,7 +2,7 @@
 import { Typography } from "./Typography/Typography";
 import { Button } from "./Button";
 import { Tag } from "./Tag";
-import iconWeb from "../assets/iconWeb.svg";
+import iconWebWhite from "../assets/iconWebWhite.svg";
 import "./ArticleCard.css";
 
 export const ArticleCard = ({
@@ -30,10 +30,10 @@ export const ArticleCard = ({
         <div className="buttons">
           
           <Button
-            icon={iconWeb}
+            icon={iconWebWhite}
             text="Read article"
             onClick={() => window.open(link, "_blank")}
-            className="button"
+            className="white-button"
           />
         </div>
       </div>
