@@ -16,9 +16,10 @@ export const ProjectCard = ({
   button1Text = "Live Demo",
   isArticle = false,
   isReversed = false,
+  className = "",
 }) => {
   return (
-    <div className={`project-card ${isReversed ? "reversed" : ""}`}>
+    <div className={`project-card ${isReversed ? "reversed" : ""} ${className}`}>
       <div className="project-image-wrapper">
         {image && <img src={image} alt={title} className="project-image" />}
       </div>
