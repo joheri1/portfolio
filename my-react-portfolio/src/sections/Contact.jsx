@@ -5,14 +5,14 @@ import "./Contact.css";
 export const Contact = () => {
   return (
     <Grid background="secondary">
-      <section id="contact-name" className="contact-section">
+      <section id="contact" className="contact-section">
         <Typography variant="h2" className="contact-heading">Let&#39;s talk</Typography>
         <div className="contact-photo">
           <img src="/assets/img2.jpeg" alt="Profile" />
         </div>
         <div className="contact-content">
           <Typography variant="h3">Johanna Eriksson</Typography>
-          <Typography variant="p">+46(0)70-525 33 16</Typography>
+          <Typography variant="p">+46(0)70-xxx xx xx</Typography>
         </div>
         <div className="social-links">
           <a

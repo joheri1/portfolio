@@ -5,7 +5,7 @@ import "./Header.css";
 export const Header = () => {
   return (
     <Grid background="primary">
-      <section id="header-name" className="header-section">
+      <section id="header" className="header-section">
         <Typography variant="h4" className="welcome">Hi there, I’m</Typography>
         <Typography variant="h1" className="name">Johanna Eriksson</Typography>
         <Typography variant="h3" className="intro-text">A senior system administrator transitioning into a developer role.</Typography>

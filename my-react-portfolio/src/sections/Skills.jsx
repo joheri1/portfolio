@@ -7,7 +7,7 @@ import "./Skills.css";
 export const Skills = () => {
   return (
     <Grid background="secondary">
-      <section id="skill-name" className="skill-section">
+      <section id="skills" className="skill-section">
         <Typography variant="h2" className="skill-heading">Skills</Typography>
         <div className="skill-wrapper">
           {skillsData?.skills?.length > 0 ? (

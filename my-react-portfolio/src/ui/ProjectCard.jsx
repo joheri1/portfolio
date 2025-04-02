@@ -2,7 +2,7 @@
 import { Typography } from "./Typography/Typography";
 import { Button } from "./Button";
 import iconWeb from "../assets/iconWeb.svg";
-import iconGithub from "../assets/iconGithub.svg";
+import iconGithubWhite from "../assets/iconGithubWhite.svg";
 import { Tag } from "./Tag";
 import "./ProjectCard.css";
 
@@ -14,7 +14,6 @@ export const ProjectCard = ({
   button1Link,
   button2Link,
   button1Text = "Live Demo",
-  isArticle = false,
   isReversed = false,
   className = "",
 }) => {
@@ -29,35 +28,26 @@ export const ProjectCard = ({
           {tags.map((tag, index) => (
             <Tag key={index} text={tag} sectionType="project" />
           ))}
-          </div>
- 
-          <Typography variant="h3" className="project-title">{title}</Typography>
-          <Typography variant="p" className="project-description">{description}</Typography>
+        </div>
 
-          <div className="buttons">
-            {isArticle ? (
-              <Button
-                text="Read Article"
-                onClick={() => window.open(button1Link, "_blank")}
-                className="button-secondary"
-              />
-            ) : (
-              <>
-                <Button
-                  text={button1Text}
-                  onClick={() => window.open(button1Link, "_blank")}
-                  icon={iconWeb}
-                />
-                <Button
-                  text="View Code"
-                  onClick={() => window.open(button2Link, "_blank")}
-                  icon={iconGithub}
-                  className="button-secondary"
-                />
-              </>
-            )}
-          </div>
+        <Typography variant="h3" className="project-title">{title}</Typography>
+        <Typography variant="p" className="project-description">{description}</Typography>
+
+        <div className="buttons">
+          <Button
+            text={button1Text}
+            onClick={() => window.open(button1Link, "_blank")}
+            icon={iconWeb}
+          />
+          <Button
+            text="View Code"
+            onClick={() => window.open(button2Link, "_blank")}
+            icon={iconGithubWhite}
+            className="button-secondary"
+          />
         </div>
       </div>
+    </div>
   );
 };
+

@@ -3,7 +3,7 @@ import { Typography } from "/src/ui/Typography/Typography.jsx";
 import { ProjectCard } from "../ui/ProjectCard";
 import { Grid } from "../ui/Grid";
 import { Button } from "../ui/Button";
-import iconArrow from "/src/assets/iconArrow.svg";
+import iconArrowWhite from "/src/assets/iconArrowWhite.svg";
 import "./Projects.css";
 
 export const Projects = () => {
@@ -28,7 +28,7 @@ export const Projects = () => {
 
   return (
     <Grid background="secondary">
-      <section id="project-name" className="projects-container">
+      <section id="projects" className="projects-section">
         <Typography variant="h2" className="projects-heading">Featured Projects</Typography>
 
         <div className="project-wrapper">
@@ -60,7 +60,7 @@ export const Projects = () => {
               text="View More Projects"
               isViewMore={true}
               sectionType="project"
-              icon={iconArrow}
+              icon={iconArrowWhite}
               onClick={handleViewMore} // Function to load more projects
             />
           </div>

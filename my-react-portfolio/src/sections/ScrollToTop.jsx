@@ -13,7 +13,7 @@ export const ScrollToTop = () => {
 
   return (
     <Grid background="primary">
-      <section className="scroll-to-top-section">
+      <section id="scrolltotop" className="scroll-to-top-section">
         <Button
           text="Back to Top"
           icon={iconArrow}

@@ -5,7 +5,7 @@ import "./Tech.css";
 export const Tech = () => {
   return (
     <Grid background="primary">
-    <section id="contact-name" className="tech-section">
+    <section id="contact" className="tech-section">
       <div className="tech-content-section">
       <Typography variant="h2" className="tech-heading">Tech</Typography>
         <Typography variant="p" className="tech-text">

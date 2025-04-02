@@ -1,0 +1,58 @@
+.mywords-section {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.mywords-heading {
+  text-align: left;
+  color: var(--secondary-color); 
+  font-weight: bold;
+}
+
+.article-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Tablet */
+@media (min-width: 480px) and (max-width: 768px) {
+  .mywords-container {
+    grid-column: span 8;
+    margin-bottom: 30px;
+  }
+
+  .mywords-heading {
+    margin-bottom: 30px;
+  }
+}
+
+/* Small desktop */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .mywords-container {
+    grid-column: span 12;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .mywords-heading {
+    margin-bottom: 30px;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1024px) {
+  .mywords-container {
+    padding: 8rem 0;
+    gap: 8rem;
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+}

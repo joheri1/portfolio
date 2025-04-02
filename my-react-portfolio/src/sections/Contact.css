@@ -7,7 +7,7 @@
   flex-direction: column;
   text-align: center;
   padding: 8rem 0rem;
-  gap: 4rem;
+  gap: 3rem;
   align-items: center;
   align-self: stretch;
   display: flex;
@@ -43,10 +43,8 @@
 }
 .social-links {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: center;
-  height: 10rem;
-  width: 100%;
 }
 
 @media (min-width: 1024px) {
