@@ -34,17 +34,3 @@
 .span {
   text-decoration: none; 
 }
-
-/* Scroll to top button */
-.scroll-to-top-button .button-icon {
-  transform: rotate(180deg);
-  transition: transform 0.3s ease-in-out;
-}
-
-.scroll-to-top-button {
-  transition: transform 0.3s ease-in-out;
-}
-
-.scroll-to-top-button:hover {
-  transform: scale(1.04);
-}

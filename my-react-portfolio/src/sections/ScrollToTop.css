@@ -4,3 +4,26 @@
   align-items: center;
   padding: 4rem 1rem;
 }
+.scroll-to-top-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+  width: 18rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  transition: transform 0.3s ease-in-out;
+}
+.scroll-to-top-button .button-icon {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.scroll-to-top-button {
+  transition: transform 0.3s ease-in-out;
+}
+
+.scroll-to-top-button:hover {
+  transform: scale(1.04);
+}

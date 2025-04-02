@@ -14,6 +14,7 @@ export const App = () => {
 
   return (
     <>
+      <div id="top" />
       <Header />
       <Gallery />
       <Bio />
