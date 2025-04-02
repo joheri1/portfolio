@@ -4,13 +4,3 @@
   align-items: center;
   padding: 4rem 1rem;
 }
-.rotate-icon .button-icon {
-  transform: rotate(180deg);
-}
-.white-button {
-  transition: transform 0.3s ease-in-out;
-}
-
-.white-button:hover {
-  transform: scale(1.04);
-}
