@@ -10,7 +10,7 @@
       ],
       "description": "A functional chatbot interface using JavaScript, HTML, and CSS. The chatbot interacts with user, ask questions, display messages, and respond with precision.",
       "netlify": "https://johannaschatbot.netlify.app/",
-      "github": "https://github.com/joheri1/project-chatbot"
+      "github": "https://github.com/joheri1/project-chatbot/blob/main/README.md"
     },
     {
     "name": "Todo app",
