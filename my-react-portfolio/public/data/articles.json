@@ -3,8 +3,8 @@
     {
       "date": "April 1st, 2025",
       "image": "/assets/img3.jpeg",
-      "title": "React Hooks & Fishing Hooks: Casting for Clean Code",
-      "description": "What do React Hooks and fishing have in common? Patience, precision, and the perfect hook. From useState to useEffect, this piece compares catching bugs in code to reeling in the big one."
+      "title": "React Hooks & Fishing Hooks",
+      "description": "Scientists now claim that using React Hooks while fishing boosts both your code quality and your catch rate. From useState to useFish, this totally real article dives into the waters of frontend development and bass hunting. Happy April Fools!"
     }    
   ]
 }
