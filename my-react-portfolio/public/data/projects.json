@@ -86,6 +86,19 @@
       "description": "This team-developed digital library uses diverse data collections and offers filtering, sorting, and random item selection. It features a responsive design that works across mobile, tablet, and desktop.",
       "netlify": "https://jojolialbumlibrary.netlify.app/",
       "github": "https://github.com/joheri1/project-movies-vite/blob/main/README.md"
+    },
+    {
+      "name": "Weather app",
+      "image": "https://images.unsplash.com/photo-1496450681664-3df85efbd29f?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "APIs"
+      ],
+      "description": "A responsive weather app that displays current conditions and a 4-day forecast based on real-time data from a selected city. Built with JavaScript, HTML, and CSS.",
+      "netlify": "https://project-weather-app-by-joe.netlify.app/",
+      "github": "https://github.com/joheri1/project-weather-app"
     }
   ]
 }
