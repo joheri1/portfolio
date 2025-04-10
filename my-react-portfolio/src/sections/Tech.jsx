@@ -9,9 +9,7 @@ export const Tech = () => {
       <div className="tech-content-section">
       <Typography variant="h2" className="tech-heading">Tech</Typography>
         <Typography variant="p" className="tech-text">
-          HTML, CSS, Flexbox, JavaScript,
-          JSX, React, React Hooks, Zustand, Node.js,
-          Mongo DB, Accessibility, Styled Components, RESTful APIs, Tailwind CSS, mob-programming, pair-programming, GitHub.
+            JSX, React Hooks, global state management, Mongoose, Tailwind CSS, fetch, Flexbox, async/await, error handling, media queries, component-based design, reusable components, Git workflow, pair-programming, mob-programming, .env, deployment, CSS animations.
         </Typography>
       </div>
       </section>
